@@ -7,13 +7,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-yHn/6RrsI1hdZPY5UtOGlGQzOYyykzDxigF4I/0kgx6sSAb7RJZ3uFVZbDK0sTNTZWlt3LsnA90+Z/f3STuG9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <title>VRA</title>
 </head>
 <body>
-  <nav class="navbar">
+<nav class="navbar">
   <div class="navbar-container">
-    <a href="index.php" class="navbar-brand">VRA</a>
+    <a href="index.html" class="navbar-brand">VRA</a>
     <input type="checkbox" id="navbar-toggle" class="navbar-toggle" />
     <label for="navbar-toggle" class="navbar-icon">
       <span></span>
@@ -21,29 +22,9 @@
       <span></span>
     </label>
     <ul class="navbar-menu">
-      <li><a href="index.php">Home</a></li>
-      <li class="has-dropdown">
-        <a href="#">About Us</a>
-        <ul class="dropdown">
-          <li><a href="about_us/profile.php">Profile of VRA</a></li>
-          <li><a href="about_us/vision.php">Our Vision, Mission, Strategy &amp; Values</a></li>
-          <li><a href="about_us/board_chairman_and_members.php">Board Chairman and Members</a></li>
-          <li><a href="about_us/about_ce.php">Ag. Chief Executive</a></li>
-          <li><a href="about_us/management_team.php">Management Team</a></li>
-          <li><a href="resources/facts.php">Power Generation</a></li>
-        </ul>
-      </li>
-      <li class="has-dropdown">
-        <a href="#">Our Mandate</a>
-        <ul class="dropdown">
-          <li><a href="our_mandate/akosombo_hydro_plant.php">Akosombo Hydro Plant</a></li>
-          <li><a href="our_mandate/kpong_hydro_plant.php">Kpong Hydro Plant</a></li>
-          <li><a href="our_mandate/takoradi_thermal_power_station.php">Takor
-          <li><a href="our_mandate/solar_energy.php">Navrongo Solar Power Plant</a></li>
-        </ul>
-      </li>
-      <li><a href="about_us/rti.php">RTI</a></li>
-      <li><a href="https://fa-ewye-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/VoltaRiverAuthority" target="_blank">Careers</a></li>
+      <li><a href="our_mandate.html">Our Mandate</a></li>
+      <li><a href="about_us.html">About Us</a></li>
+      <li><a href="RTI.html">RTI</a></li>
       <li><a href="contact.html">Contact Us</a></li>
       <li class="navbar-social">
         <a href="https://www.facebook.com/vraghana" target="_blank" title="Facebook"><span class="fa fa-facebook"></span></a>
@@ -72,7 +53,7 @@
         The Volta River Authority exists to power economies and raise the living standards of the people of Ghana and West Africa.<br>
         We supply electricity and related services in a reliable, safe, and environmentally friendly manner to add economic, financial, and social values to our customers and meet stakeholders’ expectations.
       </p>
-      <a href="about_us/profile.php" class="c2a-btn" aria-label="Read more about Volta River Authority profile">
+      <a href="profile.html" class="c2a-btn" aria-label="Read more about Volta River Authority profile">
         Read More <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
       </a>
     </div>
@@ -85,7 +66,7 @@
       <p>
         We exist to power economies and provide related services; in a safe, reliable and environmentally friendly manner, to add value and raise the living standards of the people of Ghana and West Africa.
       </p>
-      <a href="about_us/vision.php" class="mission-btn" aria-label="Read more about our mission">
+      <a href="our_vision.html" class="mission-btn" aria-label="Read more about our mission">
         Read More <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
       </a>
     </div>
@@ -117,11 +98,19 @@
         </ul>
       </div>
       <div class="mission-col">
-        <h3><i class="fa fa-briefcase"></i> Non-Power Activities</h3>
-        <a href="about_us/non_power_activities.php" class="mission-link">
-          Read more about our non-power activities <i class="fa fa-arrow-circle-right"></i>
-        </a>
-      </div>
+  <div class="mission-col">
+  <h3><i class="fa fa-briefcase"></i> Non-Power Activities</h3>
+
+  <!-- 🔧 Rotating wrench icon to fill the gap -->
+  <div style="text-align: center; margin: 40px 0;">
+    <i class="fa fa-wrench fa-spin" style="font-size: 48px; color: #1956a2;"></i>
+  </div>
+
+  <a href="non_power_activities.html" class="mission-link">
+    Read more about our non-power activities <i class="fa fa-arrow-circle-right"></i>
+  </a>
+</div>
+
     </div>
   </div>
 </section>
@@ -187,20 +176,6 @@
     </li>
   </ul>
 </section>
-  <section id="get-quote" class="news-cta">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h3>
-            See all news &amp; updates
-            <a href="media/index.php" class="news-button">
-              See more <i class="fa fa-arrow-circle-right"></i>
-            </a>
-          </h3>
-        </div>
-      </div>
-    </div>
-  </section>
 <section class="csr-section">
   <div class="overlay"></div>
   <div class="container">
@@ -215,19 +190,12 @@
           We aim at having a positive impact on the people, culture and communities in which we operate, 
           and to contribute to the growth and development of the economy.
         </p>
-        <a href="#" class="csr-button">
+        <a href="csr.html" class="csr-button">
           <i class="fa fa-lock"></i> Read more about our CSR efforts
         </a>
       </div>
-
-      <div class="csr-image-carousel">
-        <div class="carousel-img">
-          <img src="csr-scholarship.jpg" alt="Scholarship Award" />
-          <div class="carousel-controls">
-            <button class="carousel-btn prev">&#10094;</button>
-            <button class="carousel-btn next">&#10095;</button>
-          </div>
-        </div>
+      <div class="csr-image">
+        <img src="pexels-pixabay-159711.jpg" alt="CSR Community" style="width:100%;max-width:400px;border-radius:8px;">
       </div>
     </div>
   </div>
@@ -272,6 +240,8 @@
       <h2>VRA</h2>
       <p>Powering economies and raising living standards in Ghana and West Africa.</p>
     </div>
+    <img src="femi.jpeg" alt="Profile" class="footer-profile-img" />
+      <p>Index number: BC/ITS/24/091</p>
     <div class="footer-links">
       <h4>Quick Links</h4>
       <ul>
